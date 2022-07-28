@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    #input-box #navbar{
+       margin: auto;
+       display: flex;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       height: 50px;
+       background-color: beige;
+       justify-content: space-evenly;
+    }
+    #input-box a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+ 
+   #search-food{
+        display: block;
+             margin : 0 auto;
+             width: 400px;
+             height: 30px;
+             font-size: 19px;
+             border-radius: 5px;
+             margin-top: 10px;
+    }
+    
+    #container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        width: 100%;
+        margin: auto;
+    }
+    #container div img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+    }
+    #container> div{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width: 90%;
+        border-radius: 8px;
+        margin-top: 30px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
