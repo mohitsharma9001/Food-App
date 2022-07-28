@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: rgb(248, 203, 149);
+}
+body{
+    background-color: azure;
+}
+#container{
+        height:auto;
+        width: 20%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        border-radius: 18px;
+        background-color: aliceblue;
+    }
+#container>form{
+    justify-content: center;
+    line-height: 35px;
+    padding: 50px 30px 30px 60px;
+}
+#submit{
+    cursor: pointer;
+    padding: 5px 40px 5px 40px;
+    margin-top: 20px;
+    background-color: rgb(224, 171, 230);
+    border-radius: 12px;
+    
+}
+#submit:hover{
+    font-size: large;
+    background-color: bisque;
+
+}
+input{
+    padding: 5px 10px 5px 10px;
+}
